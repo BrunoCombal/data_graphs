@@ -1,7 +1,7 @@
 Data graphs
 =======
 
-A series of graphs to represent scientific data for the web.
+Exemple of graphs to represent scientific data for the web.
 
 see wiki page:
 https://github.com/BrunoCombal/data_graphs/wiki
