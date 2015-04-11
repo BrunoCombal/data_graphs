@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# author: Bruno Combal, IOC-UNESCO
+# date: April, 2015
+
+# get the list of arrangements shapefiles, transform into rasters
+# count the number of overlaid pixels (=redundancy in arrangements geographic coverage)
+
+
+
+# definitions
+shpDir='' # directory storing the shapfiles
+tmpDir='' # a working directory. Files in this directory won't be kept
+mkdir -p $tmpDir
+outDir='' # output directory
+mkdir -p $outDir
+
+# this function returns the list of shapfiles to process
+# can be adapted to specific needs
+function doCleanShpList(){
+    find $
+    
+}
+
+# transform shapefiles into rasters
+for shpFile in ${shpDir}/*.shp
+gdal_rasterize 
